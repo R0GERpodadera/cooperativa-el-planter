@@ -1,0 +1,42 @@
+/* ##################### */
+/*        GENERAL        */
+/* ##################### */
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    font-family: 'Mooli', sans-serif;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 7px #000;
+}
+
+/* #################### */
+/*        HEADER        */
+/* #################### */
+
+/* #################### */
+/*         MAIN         */
+/* #################### */
+
+.carrousel-img {
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-image: linear-gradient(90deg, rgba(55, 255, 0, 0.295) 0%, rgba(57, 152, 31, 0.342) 61%, rgba(53, 121, 34, 0.212) 100%), url(https://elplanter.cat/wp-content/uploads/2020/02/Planter_0034.jpg);
+    background-position: 70%;
+}
+.text-carrousel {
+    left: 60px;
+    top: 55%;
+    width: 80%;
+}
+
+/* #################### */
+/*        FOOTER        */
+/* #################### */
+
+/* ######################## */
+/*        RESPONSIVE        */
+/* ######################## */
