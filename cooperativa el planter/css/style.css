@@ -1,0 +1,106 @@
+/* ##################### */
+/*        GENERAL        */
+/* ##################### */
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    font-family: 'Mooli', sans-serif;
+}
+
+h1, h2, li > a {
+    font-family: 'Gabarito', cursive;
+}
+
+/* SCROLL SNAP */
+/* main {
+    scroll-snap-type: y mandatory;
+}
+
+.section {
+    scroll-snap-align: start;
+} */
+
+/* #################### */
+/*        HEADER        */
+/* #################### */
+
+/* #################### */
+/*         MAIN         */
+/* #################### */
+
+.carrousel-img-1 {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(to right,rgba(141, 161, 28, 0.800) 0%,rgba(69, 155, 172, 0.800) 100%), url(https://elplanter.cat/wp-content/uploads/2020/02/Planter_0034.jpg);
+    background-position: 70%;
+    background-attachment: fixed;
+}
+
+.carrousel-img-2 {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(to right,rgba(141, 161, 28, 0.800) 0%,rgba(69, 155, 172, 0.800) 100%), url(https://elplanter.cat/wp-content/uploads/2020/02/Planter_0024.jpg);
+    background-position: 70%;
+    background-attachment: fixed;
+}
+
+.carrousel-img-3 {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(to right,rgba(141, 161, 28, 0.800) 0%,rgba(69, 155, 172, 0.800) 100%), url(https://images.gestionaweb.cat/2406/img-640-360/img-9590-1746714.jpg);
+    background-position: 70%;
+    background-attachment: fixed;
+}
+
+.text-carrousel {
+    left: 50%;
+    top: 50%;
+    width: 80%;
+}
+
+button {
+    color: #438f4d;
+    transition: .3s;
+}
+
+button:hover {
+    transform: scale(.9);
+    transition: .3s;
+}
+
+.p-carrousel {
+    height: 100%;
+    overflow: auto;
+    scrollbar-color: #ccc #fff;
+    scrollbar-width: thin;
+}
+
+.p-carrousel-div {
+    height: 100px;
+}
+
+/*###### LA SELVA ######*/
+
+.la-selva {
+    min-height: 100vh;
+    background-color: #7ca982c5;
+    width: 100%;
+}
+
+.text-selva {
+    width: 80%;
+}
+
+/* #################### */
+/*        FOOTER        */
+/* #################### */
+
+/* ######################## */
+/*        RESPONSIVE        */
+/* ######################## */
