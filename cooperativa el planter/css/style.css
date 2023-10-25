@@ -1,0 +1,166 @@
+/* ##################### */
+/*        GENERAL        */
+/* ##################### */
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    font-family: 'Mooli', sans-serif;
+}
+
+h1, h2, li > a {
+    font-family: 'Gabarito', cursive;
+}
+
+button:hover {
+    transform: scale(.9);
+    transition: .3s;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39);
+}
+
+button {
+    transition: .3s;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* #################### */
+/*        HEADER        */
+/* #################### */
+
+/* #################### */
+/*         MAIN         */
+/* #################### */
+
+.portada {
+    height: 100vh;
+    width: 100vw;
+}
+
+.img-portada-selva {
+    width: 100vw;
+    background-image:linear-gradient(to right,#8da11caa 0%,#459aacaa 100%), url(https://elplanter.cat/wp-content/uploads/2020/02/Planter_0024.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-bottom: solid 1px #fff;
+}
+
+.img-portada-planter {
+    width: 100vw;
+    background-image:linear-gradient(to right,#8da11caa 0%,#459aacaa 100%), url(https://elplanter.cat/wp-content/uploads/2020/02/Planter_0024.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top: solid 1px #fff;
+}
+
+.text-portada {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.p-text {
+    height: 100px;
+    overflow: auto;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39);
+}
+
+.link {
+    background: linear-gradient(to right,#637016aa 0%,#154f5aaa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 0%;
+    border-radius: 20px;
+    height: 3px;
+    background-color: #8da11c;
+    bottom: 0;
+    transition: .3s;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    transition: .3s;
+}
+
+/*###### EL PLANTER ######*/
+
+/*###### LA SELVA ######*/
+
+/* #################### */
+/*        FOOTER        */
+/* #################### */
+
+/* ######################## */
+/*        RESPONSIVE        */
+/* ######################## */
+
+@media (min-width: 768px) {
+    .img-portada-selva {
+        width: 50vw !important;
+        border-right:  solid 1px #fff;
+        border-bottom: none !important;
+    }
+
+    .img-portada-planter {
+        width: 50vw !important;
+        border-left: solid 1px #fff;
+        border-top: none !important;
+    }
+
+    .navbar {
+        position: absolute !important;
+        width: 100%;
+    }
+
+    .text-portada {
+        top: 35% !important;
+    }
+
+  }
+
+@media (max-width: 991px) {
+    .navbar {
+        background-color: #fff;
+    }
+}
+
+@media (min-width: 991px) {
+    .j {
+        color: #fff !important;
+    }
+}
+  
